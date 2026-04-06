@@ -5,7 +5,25 @@ from visualization import plot_results
 def main():
     n = int(input("How many flips? "))
 
-    results, flips = run_simulation(n)
+    if n == -1: exit()
+
+    if n <= 0:
+        print("Please enter a positive number of flips.")
+        return
+
+    weight_raw = input("Heads weight 0-1 (press Enter for 0.5): ").strip()
+
+    try:
+        heads_weight = 0.5 if not weight_raw else float(weight_raw)
+    except ValueError:
+        print("Heads weight must be a number between 0 and 1.")
+        return
+
+    if not 0 <= heads_weight <= 1:
+        print("Heads weight must be between 0 and 1.")
+        return
+
+    results, flips = run_simulation(n, heads_weight)
 
     probabilities = calculate_probability(results)
     streak = longest_streak(flips)
