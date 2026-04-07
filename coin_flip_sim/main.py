@@ -14,7 +14,7 @@ def main():
     weight_raw = input("Heads weight 0-1 (press Enter for 0.5): ").strip()
 
     try:
-        heads_weight = 0.5 if not weight_raw else float(weight_raw)
+        heads_weight = float(weight_raw) if weight_raw else 0.5
     except ValueError:
         print("Heads weight must be a number between 0 and 1.")
         return
