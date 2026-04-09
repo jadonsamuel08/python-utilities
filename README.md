@@ -1,14 +1,14 @@
 # mini-python-projects
 
-A collection of small Python projects built independently — no AI assistance, no tutorials, just problem-solving from scratch.
+A collection of small Python projects created to strengthen practical programming skills through consistent, hands-on work.
 
-## Purpose
+## Overview
 
-This repo exists for one reason: to sharpen my Python skills through consistent, hands-on practice. Reading documentation and following along with tutorials only goes so far. The real growth happens when you sit down with a blank file and figure things out yourself.
+This repository is a personal practice portfolio focused on building strong Python fundamentals. Each project is intentionally scoped to reinforce core concepts through implementation, debugging, and iteration.
 
-Every project here was built without AI-generated code or step-by-step guides. The goal is to get comfortable with the discomfort of not knowing the answer immediately — because that's what real development looks like.
+The goal is steady improvement through independent problem solving and clear, maintainable code.
 
-## What I'm Working On
+## Skills Focus
 
 Each project targets a specific set of skills and concepts:
 
@@ -28,7 +28,7 @@ Each project targets a specific set of skills and concepts:
 | 4 | Typing Speed Tester | string comparison, time module, WPM math |
 | 5 | Coin Flip Simulator | random, stats tracking |
 | 6 | Temperature Converter | functions, dictionaries |
-| 7 | Simple To-Do List (CLI) | lists, loops, basic CRUD |
+| 7 | File Organizer | os module, file system operations, path handling |
 | 8 | Password Generator | string manipulation, secrets module |
 | 9 | Unit Converter | dictionaries, modular structure |
 | 10 | Word Counter | file I/O, string methods |
@@ -45,7 +45,7 @@ Each project targets a specific set of skills and concepts:
 
 ## Repo Structure
 
-Each project lives in its own subdirectory with its source code and a short README explaining what it does and what I learned building it.
+Each project lives in its own directory and includes source code plus a short README with project-specific notes.
 
 ```
 mini-python-projects/
@@ -58,9 +58,9 @@ mini-python-projects/
 └── ...
 ```
 
-## Ground Rules
+## Development Principles
 
-- No AI-generated code
-- No copying solutions from the internet
-- Every project is written, debugged, and finished independently
-- If I get stuck, I read the docs — not the answer
+- Projects are developed independently
+- External solutions are not copied
+- Documentation is the primary reference when blocked
+- Emphasis is on code clarity, correctness, and learning progress
