@@ -47,6 +47,10 @@ def main():
     except:
         folder = input("Enter folder path: ")
     
+    if not os.path.isfile(folder):
+        print("Invalid PATH")
+        exit()
+    
     action = input("(o)rganize or (r)eset? ").lower()
     
     if action == 'o':
@@ -56,4 +60,5 @@ def main():
         reset_folder(folder)
         print(f"Folder reset: {folder}")
 
-main()
+if __name__ == "__main__":
+    main()
