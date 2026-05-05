@@ -32,12 +32,12 @@ Each project targets a specific set of skills and concepts:
 | 8 | Password Generator | string manipulation, secrets module |
 | 9 | Unit Converter | dictionaries, modular structure |
 | 10 | Word Counter | file I/O, string methods |
-| 11 | Basic Quiz App | dictionaries, score tracking |
+| 11 | Log File Analyzer | regex, string parsing, data analysis |
 | 12 | Countdown Timer | time module, loops |
 | 13 | ATM Simulator | OOP basics, conditionals |
 | 14 | Contact Book (CLI) | dictionaries, JSON file I/O |
 | 15 | Expense Tracker | JSON, data manipulation |
-| 16 | Hangman | string manipulation, game logic |
+| 16 | Async Web Scraper | asyncio, HTTP requests, HTML parsing |
 | 17 | Caesar Cipher | ASCII, encryption basics |
 | 18 | Student Grade Calculator | file I/O, averages, data formatting |
 | 19 | Library Book Manager | OOP, classes, JSON storage |

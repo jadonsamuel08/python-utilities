@@ -1,0 +1,13 @@
+[2026-05-01 08:15:23] INFO: Application started
+[2026-05-01 08:15:24] INFO: Connecting to database
+[2026-05-01 08:15:25] DEBUG: Database connection established
+[2026-05-01 08:15:26] INFO: Loading configuration file
+[2026-05-01 08:16:01] ERROR: Failed to load configuration: File not found
+[2026-05-01 08:16:02] INFO: Retrying with default configuration
+[2026-05-01 08:16:03] INFO: Default configuration loaded successfully
+[2026-05-01 08:17:45] WARNING: Memory usage at 85%
+[2026-05-01 08:20:12] ERROR: Connection timeout: server.example.com
+[2026-05-01 08:20:13] INFO: Attempting reconnection
+[2026-05-01 08:20:15] INFO: Reconnected successfully
+[2026-05-01 09:00:00] DEBUG: Scheduled backup started
+[2026-05-01 09:05:00] INFO: Backup completed successfully

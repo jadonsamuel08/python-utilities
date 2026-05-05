@@ -1,0 +1,16 @@
+2026-05-01 08:16:01 ERROR: NullPointerException in UserService.java:45
+  at com.example.service.UserService.getUser(UserService.java:45)
+  at com.example.controller.UserController.handleRequest(UserController.java:12)
+  at java.base/java.lang.Thread.run(Thread.java:830)
+
+2026-05-01 08:20:12 CRITICAL: Database connection refused
+  Connection refused: Could not connect to 127.0.0.1:5432
+  Error Code: E_CONNECTION_REFUSED
+
+2026-05-01 09:15:30 WARNING: Deprecated function used
+  Function 'old_method()' is deprecated. Use 'new_method()' instead.
+  Called from: script.py:123
+
+2026-05-01 10:00:00 ERROR: Timeout exception
+  Operation timed out after 30 seconds
+  Resource: /api/heavy-computation
