@@ -3,9 +3,9 @@
 ## logs/app.log
 **Objective:** Parse application logs and extract:
 - Count logs by severity level (INFO, DEBUG, ERROR, WARNING)
-- Find all ERROR messages and their timestamps
-- Calculate time between first and last log entry
-- Identify patterns (e.g., what events triggered errors)
+- Extract all ERROR messages with exact timestamps, sorted chronologically
+- Calculate the total log duration (days/hours/minutes between first and last entry)
+- Generate a temporal pattern report showing which log entries precede errors
 
 ## logs/access.log
 **Objective:** Analyze web server access logs and extract:
